@@ -1,4 +1,4 @@
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
@@ -14,7 +14,11 @@ namespace CatalogAPI.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
+<<<<<<< HEAD
 	//rename catalog by user 3
+=======
+	//rename catalog by user 2
+>>>>>>> 617595f2bd99c28d27558dc87e118f872baaabae
         [Column("Catalog_Id")]
         public long CatalogId { get; set; }
         [Column("Catalog_Name")]
