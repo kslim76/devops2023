@@ -19,6 +19,8 @@ namespace CatalogAPI.Models
         [Column("Catalog_Name")]
         [Required]
         [StringLength(50)]
+	//user3 modifying the code
+	//he wanat to additional constaint to catalog name as well
         public string? CatalogName { get; set; }
 
         //[JsonIgnore]       
