@@ -11,10 +11,10 @@ jobs:
       - run: echo 'Hi ${{ env.username }}'  # Hi Mona
       - run: echo 'Hi ${{ env.username }}'  # Hi Mona
         env:
-          username: Octocat
+          username: KS
   linux_job:
     runs-on: ubuntu-latest
     env:
-      username: Tux
+      username: KS1
     steps:
       - run: echo 'Hi ${{ env.username }}'  # Hi Tux
